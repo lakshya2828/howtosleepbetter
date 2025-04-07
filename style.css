@@ -1,0 +1,48 @@
+.container {
+    display: grid;
+    grid-template-columns: 2fr 8fr 9fr;
+    grid-template-rows: 2fr 3fr 27fr 5fr;
+}
+
+.header {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    background-color:aqua;
+}
+
+.navigationmenu {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    background-color:blueviolet;
+}
+.content {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-color:blue;
+}
+
+.maincontent {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-color:blanchedalmond;
+}
+
+.secondcontent {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background-color:bisque;
+}
+
+.bottom {
+    grid-column: 1/4;
+    grid-row: 4/5;
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+
